@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SBSMstaff</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_process">ProcessActivity</string>
+    <string name="title_activity_menu">Manager Menu</string>
+    <string name="title_activity_worker_menu">Staff Menu</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_man">Report</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_staff_list">Report</string>
+    <string name="title_activity_man_staff">Report</string>
+    <string name="title_activity_man_assign">Assign to</string>
+
+    <string-array name="sort">
+        <item>Date</item>
+item>                        <item>Date (descending)</item>
+item>                        <item>Problem type</item>
+item></string-array>
+
+    <string name="title_activity_staff_report">StaffReportActivity</string>
+    <string name="title_activity_staff">StaffActivity</string>
+    <string name="title_activity_assigned_report">AssignedReportActivity</string>
+
+</resources>

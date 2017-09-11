@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycompany.loginv3" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProcessActivity"
+            android:label="Toilet List"
+            android:parentActivityName=".ProcessActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.loginv3.Login" />
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/title_activity_report" >
+        </activity>
+        <activity
+            android:name=".MyReportActivity"
+            android:label="@string/title_activity_my_report" >
+        </activity>
+        <activity
+            android:name=".ReportNewActivity"
+            android:label="@string/title_activity_report_new" >
+        </activity>
+        <activity
+            android:name=".MyNewReportActivity"
+            android:label="@string/title_activity_my_new_report" >
+        </activity>
+    </application>
+
+</manifest>
